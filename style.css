@@ -1,0 +1,283 @@
+body {
+    padding-top:115px;
+    font-family: 'Heebo', sans-serif;
+}
+
+
+h1, h2, h4, h5, h6 {
+    font-size:2em;
+    font-weight:900;
+    color: #8D1D23;
+    text-transform: uppercase;
+
+}
+    h3 {
+        font-size:1.5em;
+                font-weight:600;
+    }
+
+    p {
+        font-size:16px;
+        }
+
+.pad {
+    padding-top:70px;
+    padding-bottom:70px;
+}
+
+.cover_cbtd {
+    background: linear-gradient(to left, rgba(51, 21, 47, .9), rgba(44, 15, 17, 0.7)), url('images/bg-cover.png');
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: calc(100vh - 115px);
+    background-attachment:fixed;
+}
+
+.cover_cbtd h1 {
+    font-size: 3.5em !important;
+    font-weight:800;
+    text-transform:uppercase;
+    color: #73518F;
+    text-shadow: 1px 1px 1px rgb(255 255 255);
+
+}
+
+.border-text {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+    font-size: 3em;;
+}
+
+
+.cover_cbtd h3 {
+    font-size: 1.8em !important;
+
+}
+
+.cover_cbtd p {
+    font-size: 1.8em !important;
+    font-weight:600;
+    color: rgb(255, 255, 255);
+}
+
+ 
+
+  .about_cbtd .img-1 {
+      right:0;
+      top:0;
+      height:auto;
+      width:320px;
+      opacity: .2;
+  }
+
+  .about_cbtd .img-2 {
+    left:0;
+    bottom:0;
+    height:auto;
+    width:320px;
+}
+
+.details_cbtd {
+    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)), url('images/bg-opacity-quadros.png');
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.details_cbtd h1 {
+    font-weight:800;
+    text-transform:uppercase;
+}
+
+.details_cbtd h3 {
+font-size:1.8em;
+}
+
+
+.testimonial_cbtd p {
+    font-weight: 400;
+}
+
+.testimonial_cbtd h3 {
+    font-size: 1em;
+    text-transform: uppercase;
+}
+.testimonial_cbtd .card {
+    margin:10px 20px;
+    min-height:280px;
+    border-radius: 20px;
+    border:none;
+    -webkit-box-shadow: 0px 0px 10px 5px rgb(141 29 35 / 45%);
+    box-shadow: 0px 0px 10px 5px rgb(141 29 35 / 45%);
+}
+
+
+.box_cbtd  {
+    background: linear-gradient(rgba(65, 28, 73, 0.9),rgba(65, 28, 73, 0.9)), url('images/bg-cover.png');
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box_cbtd h1 {
+    font-size: 3em;
+    color: rgb(99, 92, 166);
+    text-transform: none;
+
+}
+
+.bg-row {
+    background-color:#8a1456;
+}
+
+.plenariaconteudo_cbtd{
+    background: linear-gradient(rgba(65, 28, 73, 0),rgba(65, 28, 73, 0)), url('images/bg-cores (1).png');
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+ .span {
+    font-size: 1.7em !important;
+    font-weight:800;
+    text-transform:uppercase;
+    color: #7d76c5;
+}
+
+
+.plenariaconteudo_cbtd h3::after {
+    content: '';
+    display: block;
+    right: 0;
+    top: 10px;
+    position: absolute;
+    width: 3px;
+    height: 35px;
+    background: #7d76c5;
+
+}
+
+.plans_cbtd .title_free {
+    font-size:1.7em;
+}
+
+.plans_cbtd .bg-list-associate {
+    background: #8D1D23 ;
+    border-radius: 40px;
+    padding: .4rem;
+    margin: 8px 0;
+    font-size: 20px;
+}
+
+.cbtd_diferentials .linha-1 {
+    background: linear-gradient(rgba(65, 28, 73, 0),rgba(65, 28, 73, 0)), url('images/v.png');
+    background-position: left;
+    width:100%;
+    background-repeat:no-repeat;
+    background-size: contain;
+
+}
+
+.cbtd_diferentials .bg-diff {
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width:110%;
+    display: block;
+}
+
+.btn-cbtd {
+    border:2px solid #8D1D23;
+    color:#8D1D23;
+    font-weight: bold;
+    padding:15px 45px;
+    background-color: transparent;
+    border-radius: 40px;
+}
+.btn-cbtd:hover {
+    background-color:#8D1D23;
+    color:#fff;
+    transition:.3s;
+}
+
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fade-in.one {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
+.fade-in.two {
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay:1.2s;
+  animation-delay: 1.2s;
+}
+
+.fade-in.three {
+  -webkit-animation-delay: 1.6s;
+  -moz-animation-delay: 1.6s;
+  animation-delay: 1.6s;
+}
+.about_cbtd .h3-title {
+    font-size:1.6em;
+    color: #635CA6;
+    font-weight:black;
+}
+
+
+@media(min-width:768px) {
+    .cover_cbtd {
+        height: calc(85vh - 115px);
+    }
+    .section_realization {
+        height: 18vh;
+    }
+    h1, h2, h4, h5, h6 {
+        font-size:2.5em;
+    }
+    .about_cbtd .h3-title {
+        font-size:2.3em;
+    }
+    .box_cbtd h1 {
+        font-size: 4.5em; 
+    }
+    .bg-row {
+        background-color:transparent;
+    }
+}
+@media(min-width:1200px) {
+    .about_cbtd .img-1 {
+        opacity: inherit;
+    }
+}
+@media(min-width:1400px) {
+    .cbtd_diferentials .bg-diff {
+        max-width: 90%;
+    }
+    .cbtd_diferentials header {
+        margin-bottom:45px;
+    }
+}
